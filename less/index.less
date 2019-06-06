@@ -104,6 +104,7 @@ header {
 	width: 100%;
 	display: flex;
 	flex-direction:column;
+
 	nav {
 		.flex-box(wrap, flex-end, center);
 		width: 100%;
@@ -112,6 +113,7 @@ header {
 		@media (max-width:500px) {
 			justify-content:space-around;
 		}
+
 		a {
 			text-decoration: none;
 			margin-left: 50px;
@@ -136,17 +138,20 @@ header {
 	@media (max-width:500px) {
 		flex-direction: column;
 	}
+
 	.contact {
 		.flex-box(wrap,center,center);
 		flex-direction:column;
 		text-align:center;
 		padding: 5px 0;
+
 		h2 {
 			font-size: 4rem;
 			@media (max-width:500px) {
 				font-size:2.8rem;
 			}
 		}
+
 		h3 {
 			font-size: 2.5rem;
 			@media (max-width:500px) {
@@ -154,6 +159,7 @@ header {
 			}
 		}
 	}
+
 	h1 {
 		font-size: 8rem;
 	}
@@ -162,16 +168,19 @@ header {
  .main-content {
 	 .flex-box(wrap, space-around, center);
 	 margin: 20px 0;
+
 	img {
 		padding: 20px;
 		object-fit:cover;
 	}
+
 	.main-content-text {
 		.flex-box(wrap, center, center);
 		width: 50%;
 		@media (max-width:500px) {
 			width:90%;
 		}
+
 		h3 {
 			font-size:2rem;
 			.box();
@@ -190,24 +199,30 @@ header {
 		 width: 100%;
 		 font-size: 1.6rem;
 		 margin-bottom: 20px;
+
 		 th, td {
 			 padding: 15px;
 			 text-align:left;
 		 }
+
 		 th {
 			 font-weight: bold;
 		 }
+
 		 tr:nth-child(even) {background-color: #f2f2f2;}
 	 }
+
 	 h3 {
 		font-size:2rem;
 		font-weight:bold;
 		width: 25%;
 		text-align: left;
 	 }
+
 	 .education {
 		 padding: 10px;
 	 }
+	 
 	 .work-history {
 		 .borders()
 	 }
